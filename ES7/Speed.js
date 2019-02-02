@@ -1,6 +1,6 @@
 /* export default */ class Speed {
-    constructor (canvas) {
-        this.canvas = canvas;
+    constructor (p_canvas) {
+        this.canvas = p_canvas;
         this.init();
     }
 

@@ -91,4 +91,4 @@
         this.gameLayer.ctx.fillText("Press Space Bar to restart", centreX, centreY);
         this.gameLayer.ctx.restore();
     }
-}1
+}

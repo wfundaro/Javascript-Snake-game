@@ -7,9 +7,10 @@ class Canvas {
         this.canvas = document.createElement('canvas');
         this.canvas.width = this.width;
         this.canvas.height = this.height;
-        this.canvas.style.margin = "50px auto";
         this.canvas.style.position = "absolute";
         this.canvas.style.display = "block";
+        this.canvas.style.margin = "50px auto";
+        this.canvas.style.marginLeft = "calc((100% - "+ p_cw + "px) / 2 )";
         document.body.appendChild(this.canvas);
         this.ctx = this.canvas.getContext('2d');
         //this.color = Math.floor(Math.random() * Math.floor(255));
